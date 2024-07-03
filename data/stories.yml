@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: ask AI question
+  steps:
+  - intent: ask_question
+  - action: action_get_ai_response
+
+
